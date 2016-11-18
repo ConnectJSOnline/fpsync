@@ -1,0 +1,16 @@
+{
+  "name": "fp-sync-servie",
+  "version": "0.0.0",
+  "description": "fpSyncServie",
+  "main": "app.js",
+  "author": {
+    "name": "Sunil"
+  },
+  "dependencies": {
+    "aws-iot-device-sdk": "^1.0.13",
+    "eye": "0.0.3",
+    "moment": "^2.15.2",
+    "mysql": "^2.11.1",
+    "request": "^2.75.0"
+  }
+}
