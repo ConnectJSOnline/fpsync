@@ -14,7 +14,7 @@ Device.Payload.empid = "B113";
 
 thing.initPayload(Device, cli);
 var device = thing.Connect();
-//thing.PullSubscriptions(device);
+thing.PullSubscriptions(device);
 
 device.publish(Device.PublishTopic, JSON.stringify(Device.Payload), { Qos : 0 }, function (e) {
     console.log("Attendance Logged");

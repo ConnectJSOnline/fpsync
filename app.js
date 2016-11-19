@@ -48,7 +48,7 @@ exports.Connect = function() {
 exports.PullSubscriptions = function (_device) {
     var mysql = require('mysql');
     var pool = mysql.createPool({
-        host     : 'tbdautomations-hurestic.co9mgkul9wut.us-west-2.rds.amazonaws.com',
+        host     : '74.208.80.212',
         user     : 'tbdautomations',
         password : 'Atmega328',
         database : 'hurestic'
